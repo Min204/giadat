@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style title="Pesona" description="Released 16th June 2014" user_selectable="1">
+  <properties>
+    <property property_name="imagePath" property_type="scalar"><![CDATA[styles/pesona]]></property>
+    <property property_name="html" property_type="css"><![CDATA[{"background-color":"@pageBackground","background-image":"@imagePath\/pesona_bg.png","background-repeat":"repeat"}]]></property>
+    <property property_name="pageBackground" property_type="scalar"><![CDATA[rgb(136, 123, 120)]]></property>
+    <property property_name="contentBackground" property_type="scalar"><![CDATA[rgb(245, 230, 198)]]></property>
+    <property property_name="primaryMedium" property_type="scalar"><![CDATA[rgb(152, 93, 93)]]></property>
+    <property property_name="navTabSelected" property_type="css"><![CDATA[{"background-color":"rgb(152, 93, 93)","border-top-color":"rgb(152, 93, 93)","border-top-style":"solid","border-top-width":"1px","color":"rgb(253, 249, 240)","font-weight":"bold"}]]></property>
+    <property property_name="categoryStrip" property_type="css"><![CDATA[{"background-color":"rgb(218, 188, 116)","background-image":"@imagePath\/pesona_headbg.png","background-repeat":"repeat-x","border-bottom-style":"none","border-radius":"1px","border-top-color":"@primaryLighter","extra":"min-height: 6px;","margin-all":"0","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="categoryStripTitle" property_type="css"><![CDATA[{"color":"rgb(123, 69, 69)","extra":"text-shadow: 0 0 0 transparent, 1px 1px 1px #fff;","font-size":"11pt","font-weight":"bold"}]]></property>
+    <property property_name="categoryStripDescription" property_type="css"><![CDATA[{"color":"rgb(152, 93, 93)","extra":"text-shadow: 0 0 0 transparent, 1px 1px 1px #fff;","font-size":"10px"}]]></property>
+    <property property_name="sectionMain" property_type="css"><![CDATA[{"background-color":"rgb(218, 188, 116)","border-color":"rgb(199, 189, 117)","border-radius":"2px","border-style":"solid","border-width":"1px","margin-bottom":"10px","margin-left":"auto","margin-right":"auto","margin-top":"10px","padding-all":"0px"}]]></property>
+    <property property_name="headerLogoPath" property_type="scalar"><![CDATA[@imagePath/pesona_headerlogo.png]]></property>
+    <property property_name="headerTabHeight" property_type="scalar"><![CDATA[35px]]></property>
+    <property property_name="headerLogoHeight" property_type="scalar"><![CDATA[153px]]></property>
+    <property property_name="panelScrollerPanel" property_type="css"><![CDATA[{"background-color":"rgb(255, 222, 138)","padding-all":"3px"}]]></property>
+    <property property_name="panelScroller" property_type="css"><![CDATA[{"background-color":"rgb(255, 222, 138)","border-color":"rgb(242, 207, 116)","border-radius":"1px","border-style":"solid","border-width":"1px","extra":"font-size: 13pt;","margin-bottom":"10px","padding-all":"3px"}]]></property>
+    <property property_name="body" property_type="css"><![CDATA[{"color":"@contentText","extra":"word-wrap: break-word;\nline-height: 1.28;","font-family":"'Trebuchet MS', Helvetica, Arial, sans-serif","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"0","width":"90%"}]]></property>
+    <property property_name="loginBar" property_type="css"><![CDATA[{"background-color":"rgb(221, 188, 117)","background-image":"@imagePath\/pesona_topbg.png","background-position":"center top","background-repeat":"repeat-x","border-bottom-color":"rgb(152, 93, 93)","border-bottom-style":"solid","border-bottom-width":"1px","color":"rgb(255, 255, 255)","extra":"position: relative;\nz-index: 1;"}]]></property>
+    <property property_name="pageWidth" property_type="css"><![CDATA[{"extra":"_width: 976px;\n_margin: 0 auto;\nbox-sizing: border-box;","margin-bottom":"0","margin-left":"0","margin-right":"0","margin-top":"0","padding-left":"0px","padding-right":"0px"}]]></property>
+    <property property_name="navLink" property_type="css"><![CDATA[{"color":"rgb(152, 93, 93)","extra":"display: block;\nfloat: left;\nvertical-align: text-bottom;\ntext-align: center;\noutline: 0 none;\ntext-shadow:0px 1px 1px #844d4d;"}]]></property>
+    <property property_name="navTabs" property_type="css"><![CDATA[{"background-color":"rgb(220, 188, 117)","background-image":"@imagePath\/pesona_navbg.png","background-repeat":"repeat-x","border-bottom-color":"rgb(245, 230, 198)","border-bottom-style":"solid","border-bottom-width":"1px","border-color":"rgb(245, 230, 198)","border-style":"solid","border-top-left-radius":"10px","border-top-right-radius":"10px","border-width":"1px","color":"rgb(255, 255, 255)","font-size":"14px","font-weight":"bold","padding-bottom":"0","padding-left":"25px","padding-right":"25px","padding-top":"0"}]]></property>
+    <property property_name="secondaryContent" property_type="css"><![CDATA[{"background-color":"rgb(253, 249, 240)","border-bottom-color":"rgb(232, 215, 174)","border-bottom-style":"solid","border-bottom-width":"1px","padding-all":"10px"}]]></property>
+    <property property_name="subHeading" property_type="css"><![CDATA[{"background-color":"rgb(227, 203, 145)","background-image":"@imagePath\/pesona_catbg.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"rgb(227, 203, 145)","border-bottom-style":"solid","border-bottom-width":"1px","border-top-color":"rgb(227, 203, 145)","border-top-style":"solid","border-top-width":"1px","color":"rgb(152, 93, 93)","font-size":"11px","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"3px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="sidebarBlockHeading" property_type="css"><![CDATA[{"background-color":"rgb(152, 93, 93)","border-bottom-color":"@primaryLighterStill","border-bottom-style":"solid","border-bottom-width":"1px","color":"@contentBackground","extra":"text-shadow: 0 0 0 transparent, 1px 1px 1px #222;","font-size":"12pt","font-weight":"bold","padding-all":"3px","padding-left":"10px"}]]></property>
+    <property property_name="heading" property_type="css"><![CDATA[{"background-color":"rgb(217, 188, 116)","background-image":"@imagePath\/pesona_headbg.png","background-repeat":"repeat-x","border-bottom-color":"rgb(245, 230, 198)","border-bottom-style":"solid","border-bottom-width":"1px","border-top-left-radius":"5px","border-top-right-radius":"5px","color":"rgb(255, 255, 255)","font-size":"11pt","font-weight":"bold","margin-bottom":"3px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="breadcrumb" property_type="css"><![CDATA[{"background-color":"@primaryLightest","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","border-color":"rgb(218, 179, 155)","border-radius":"2px","border-style":"solid","border-width":"1px","extra":"overflow: hidden;\nzoom: 1;\nmax-width: 100%;","font-size":"11px","height":"24px"}]]></property>
+    <property property_name="breadcrumbTitlePrefix" property_type="css"><![CDATA[{"border-color":"black","border-radius":"0","border-style":"none","border-width":"0","extra":"display: inline;","font-style":"italic","font-weight":"bold","margin-all":"0","padding-all":"0"}]]></property>
+    <property property_name="primaryContent" property_type="css"><![CDATA[{"background-color":"rgb(253, 249, 240)","border-bottom-color":"@primaryLighterStill","border-bottom-style":"solid","border-bottom-width":"1px","padding-all":"10px"}]]></property>
+    <property property_name="menu" property_type="css"><![CDATA[{"border-color":"@primaryLighter","border-style":"solid","border-top-color":"@primaryLighter","border-top-style":"solid","border-top-width":"5px","border-width":"1px","extra":"overflow: hidden;\nbox-shadow: 0px 5px 5px rgba(0,0,0, 0.5);","font-size":"11px"}]]></property>
+    <property property_name="popupControl" property_type="css"><![CDATA[{"background-color":"@secondaryDarker","background-position":"top","background-repeat":"repeat-x","border-bottom-left-radius":"0px","border-bottom-right-radius":"0px","border-top-color":"@primaryLighter","border-top-left-radius":"3px","border-top-right-radius":"3px","color":"rgb(255, 255, 255)","extra":"text-shadow: 0 0 0 transparent, 1px 1px 1px #222;"}]]></property>
+    <property property_name="primaryLighterStill" property_type="scalar"><![CDATA[rgb(223, 224, 166)]]></property>
+    <property property_name="primaryLightest" property_type="scalar"><![CDATA[rgb(245, 233, 208)]]></property>
+    <property property_name="primaryDarker" property_type="scalar"><![CDATA[rgb(110, 46, 46)]]></property>
+    <property property_name="primaryDark" property_type="scalar"><![CDATA[rgb(117, 66, 66)]]></property>
+    <property property_name="primaryLightish" property_type="scalar"><![CDATA[rgb(178, 114, 114)]]></property>
+    <property property_name="primaryLight" property_type="scalar"><![CDATA[rgb(94, 71, 71)]]></property>
+    <property property_name="primaryLighter" property_type="scalar"><![CDATA[rgb(160, 162, 99)]]></property>
+    <property property_name="secondaryDarker" property_type="scalar"><![CDATA[rgb(150, 151, 95)]]></property>
+    <property property_name="secondaryDark" property_type="scalar"><![CDATA[rgb(170, 172, 111)]]></property>
+    <property property_name="secondaryMedium" property_type="scalar"><![CDATA[rgb(189, 124, 84)]]></property>
+    <property property_name="secondaryLight" property_type="scalar"><![CDATA[rgb(215, 150, 110)]]></property>
+    <property property_name="secondaryLighter" property_type="scalar"><![CDATA[rgb(239, 218, 192)]]></property>
+    <property property_name="nodeLastPost" property_type="css"><![CDATA[{"border-color":"@primaryLighterStill","border-radius":"3px","border-style":"solid","border-width":"0px","extra":"position: absolute;\ntop: 0;\nright: 0;\nline-height: 14px;\nwhite-space: nowrap;\nword-wrap: normal;\noverflow: hidden;","font-size":"11px","height":"28px","margin-all":"10px","padding-bottom":"3px","padding-left":"10px","padding-right":"10px","padding-top":"3px","width":"210px"}]]></property>
+    <property property_name="button" property_type="css"><![CDATA[{"background-color":"@primaryDarker","background-image":"none","border-color":"rgb(207, 190, 156)","border-radius":"7px","border-style":"solid","border-width":"1px","color":"rgb(255, 255, 255)","extra":"text-align: center;\nbox-shadow: 0px 1px 4px 0px rgb(200,200,210);\ntext-shadow: 0px -1px 2px #111;\noutline: none;\nline-height: 23px;\ndisplay: inline-block;\ncursor: pointer;\nbox-sizing: border-box;","font-family":"Calibri, 'Trebuchet MS', Verdana, Geneva, Arial, Helvetica, sans-serif","font-size":"12px","height":"23px","padding-bottom":"0px","padding-left":"6px","padding-right":"6px","padding-top":"0px"}]]></property>
+    <property property_name="callToActionSpan" property_type="css"><![CDATA[{"background-color":"@secondaryDarker","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"center -8px","background-repeat":"repeat-x","border-radius":"3px","color":"@textCtrlBackground","extra":"display: block;\ntext-shadow: 0 0 0 transparent, 1px 1px 1px rgb(75, 176, 193);","font-family":"@button.font-family","font-size":"11px","font-weight":"bold","padding-bottom":"0","padding-left":"15px","padding-right":"15px","padding-top":"0"}]]></property>
+    <property property_name="sectionFooter" property_type="css"><![CDATA[{"background-color":"@primaryLighterStill","background-image":"@imagePath\/xenforo\/gradients\/category-23px-light.png","background-position":"top","background-repeat":"repeat-x","border-bottom-color":"@primaryLighter","border-bottom-style":"solid","border-bottom-width":"1px","color":"@primaryDarker","extra":"line-height: 16px;","font-size":"11px","padding-bottom":"4px","padding-left":"10px","padding-right":"10px","padding-top":"4px"}]]></property>
+    <property property_name="discussionListOptionsHandleLink" property_type="css"><![CDATA[{"background-color":"@secondaryDarker","border-bottom-left-radius":"10px","border-bottom-right-radius":"10px","border-color":"@primaryLighter","border-style":"solid","border-top-color":"black","border-top-style":"none","border-top-width":"1px","border-width":"1px","color":"rgb(255, 255, 255)","extra":"display: inline-block;\noutline: 0;\nposition: relative;\nright: -50%;","font-size":"11px","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"0","padding-bottom":"0","padding-left":"20px","padding-right":"20px","padding-top":"0"}]]></property>
+    <property property_name="overlayMaskColor" property_type="scalar"><![CDATA[rgb(152, 93, 93)]]></property>
+    <property property_name="tooltip" property_type="css"><![CDATA[{"background-color":"rgb(152, 93, 93)","border-radius":"5px","color":"rgb(255, 255, 255)","extra":"display: none;\nz-index: 15000;\ncursor: default;","font-size":"11px","padding-bottom":"5px","padding-left":"10px","padding-right":"10px","padding-top":"5px"}]]></property>
+    <property property_name="footerLink" property_type="css"><![CDATA[{"color":"rgb(241, 254, 255)","extra":"display: block;","padding-all":"5px"}]]></property>
+    <property property_name="linkHover" property_type="css"><![CDATA[{"color":"rgb(102, 102, 51)","text-decoration":{"underline":"underline"}}]]></property>
+    <property property_name="header" property_type="css"><![CDATA[[]]]></property>
+    <property property_name="mutedTextColor" property_type="scalar"><![CDATA[rgb(78, 78, 78)]]></property>
+    <property property_name="subHeadingHover" property_type="css"><![CDATA[{"background-color":"@secondaryLightest","color":"rgb(152, 93, 93)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="buttonPrimary" property_type="css"><![CDATA[{"background-color":"rgb(100, 101, 55)","background-image":"none","color":"rgb(255, 255, 255)"}]]></property>
+    <property property_name="nodeTinyIcon" property_type="css"><![CDATA[{"background-color":"transparent","background-image":"@imagePath\/xenforo\/xenforo-ui-sprite.png","background-position":"-112px -16px","background-repeat":"no-repeat","extra":"display: block;\nwhite-space: nowrap;\ntext-indent: 9999px;\noverflow: hidden;\nopacity: 0.5;","height":"14px","margin-bottom":"1px","margin-left":"4px","margin-right":"4px","margin-top":"1px","width":"14px"}]]></property>
+    <property property_name="faintTextColor" property_type="scalar"><![CDATA[rgb(126, 119, 104)]]></property>
+    <property property_name="buttonHover" property_type="css"><![CDATA[{"background-color":"@secondaryDarker","background-image":"none","border-bottom-color":"@primaryLighter","border-color":"@secondaryDark","border-top-color":"@primaryLighterStill","color":"rgb(255, 255, 255)","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="messageShowTotalLikes" property_type="scalar"><![CDATA[1]]></property>
+    <property property_name="messageShowRegisterDate" property_type="scalar"><![CDATA[1]]></property>
+    <property property_name="messageShowMessageCount" property_type="scalar"><![CDATA[1]]></property>
+    <property property_name="signupButton" property_type="css"><![CDATA[{"background-color":"white","border-color":"@secondaryDarker","border-radius":"8px","border-style":"solid","border-width":"1px","extra":"text-align: center;\nline-height: 30px;\nbox-shadow: 0px 2px 5px rgba(0,0,0, 0.2);\ndisplay: block;\ncursor: pointer;","height":"30px","margin-bottom":"10px","margin-left":"30px","margin-right":"30px","margin-top":"10px","padding-all":"3px"}]]></property>
+    <property property_name="signupButtonInner" property_type="css"><![CDATA[{"background-color":"@secondaryDarker","background-image":"@imagePath\/xenforo\/gradients\/form-button-white-25px.png","background-position":"center -7px","background-repeat":"repeat-x","border-radius":"4px","color":"@textCtrlBackground","extra":"display: block;\ntext-shadow: 0px 0px 3px rgba(0,0,0, 0.5);","font-family":"@button.font-family","font-size":"12pt","font-weight":"bold"}]]></property>
+    <property property_name="signupButtonHover" property_type="css"><![CDATA[{"background-color":"@secondaryDark","text-decoration":{"none":"none"}}]]></property>
+    <property property_name="callToActionHover" property_type="css"><![CDATA[{"background-color":"@secondaryDark"}]]></property>
+    <property property_name="messageOnlineMarker" property_type="css"><![CDATA[{"border-bottom-left-radius":"1px","border-color":"transparent","border-left-color":"rgb(127, 185, 0)","border-style":"solid","border-top-color":"rgb(127, 185, 0)","border-top-left-radius":"3px","border-top-right-radius":"1px","border-width":"7px","extra":"top:-1px;\nleft:-1px;"}]]></property>
+    <property property_name="messageUserInfo" property_type="css"><![CDATA[{"extra":"float: left;","width":"174px"}]]></property>
+    <property property_name="messageInfo" property_type="css"><![CDATA[{"border-bottom-color":"black","border-bottom-style":"none","border-bottom-width":"1px","margin-left":"190px","padding-all":"0"}]]></property>
+  </properties>
+  <templates>
+    <template title="conversation_message" addon_id="XenForo" version_id="1030170" version_string="1.3.1" disable_modifications="0"><![CDATA[<xen:include template="message">
+	
+	<xen:set var="$messageId">message-{$message.message_id}</xen:set>
+	
+	<xen:set var="$messageContentAfterTemplate"><xen:if is="{$message.attachments}"><xen:include template="attached_files">
+		<xen:map from="$message" to="$post" /></xen:include></xen:if></xen:set>
+	
+	<xen:set var="$messageAfterTemplate">
+				<div class="privateControls2">
+	                        <span class="item muted"><xen:username user="$message" class="author" />, 
+					<a href="{xen:link conversations/message, $conversation, 'message_id={$message.message_id}'}" class="datePermalink"><xen:datetime time="$message.message_date" /></a>
+				</span>
+				<span class="mypostno"></span>
+			        </div><!-- end pv2 -->
+		<div class="messageMeta">
+			<div class="privateControls">
+
+				<xen:hook name="conversation_message_private_controls" params="{xen:array 'message={$message}'}">
+				<xen:if is="{$message.canEdit}">
+					<a href="{xen:link 'conversations/edit-message', $conversation, 'm={$message.message_id}'}"
+						class="item control edit {xen:if $xenOptions.messageInlineEdit, OverlayTrigger}"
+						data-overlayOptions="{&quot;fixed&quot;:false}" 
+						data-href="{xen:link conversations/edit-message-inline, $conversation, 'm={$message.message_id}'}"
+						data-messageSelector="#message-{$message.message_id}"><span></span>{xen:phrase edit}</a>
+					<xen:require js="js/xenforo/discussion.js" />
+				</xen:if>
+				<xen:if is="{$message.canReport}">
+					<a href="{xen:link 'conversations/report', $conversation, 'message_id={$message.message_id}'}" class="OverlayTrigger item control report" data-cacheOverlay="false"><span></span>{xen:phrase report}</a>
+				</xen:if>
+				</xen:hook>
+			</div>
+			
+			<xen:if hascontent="true">
+			<div class="publicControls">
+				<xen:contentcheck>
+					<xen:hook name="conversation_message_public_controls" params="{xen:array 'message={$message}'}">
+					<xen:if is="{$canReplyConversation}">
+						<a href="{xen:link 'conversations/reply', $conversation, 'm={$message.message_id}'}"
+							class="item control reply ReplyQuote"><span></span>{xen:phrase reply}</a>
+					</xen:if>
+					</xen:hook>
+				</xen:contentcheck>
+			</div>
+			</xen:if>
+		</div>
+	</xen:set>
+	
+</xen:include>]]></template>
+    <template title="EXTRA.css" addon_id="XenForo" version_id="1030270" version_string="1.3.2" disable_modifications="0"><![CDATA[.footerLegal a{color: #fff!important;}
+
+#logo {
+display: block;
+float: right;margin-right:10px;
+}
+#header .pageWidth .pageContent{
+background: transparent url('{xen:property imagePath}/pesona_headerL.png') no-repeat 0px top;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+
+
+/* tab color do not want to follow style properties */
+.navTabs .navLink, .navTabs .SplitCtrl, .navTabs .navTab.PopupClosed .navLink {
+color: #fff!important;
+}
+
+#QuickSearch {
+top: -28px;
+}
+.node .linkNodeInfo .nodeIcon {margin-left:9px;}
+
+/* forumlist bg */
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
+background-color: #fdf9f0!important;
+border-bottom:1px solid #f3e4c3!important;
+}
+
+
+/* moderatorbar styling */
+#moderatorBar .pageContent{margin:0 10px;}
+#moderatorBar a{color:#fff!important;}
+#moderatorBar{
+color: rgb(245, 230, 198);
+background: rgb(148, 213, 222) url('{xen:property imagePath}/pesona_topbg.png') repeat-x center top;
+border-bottom: 1px solid #f5e6c6;
+}
+
+/* top radius */
+#loginBar,#moderatorBar{
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+/* header custom adjustment */
+#logo{margin-left:15px;}
+#logoBlock {
+background: rgb(224, 200, 151) url('{xen:property imagePath}/pesona_headerbg.png') repeat-x center -3px;
+margin-bottom:7px;margin-top:7px;
+border:1px solid #c5b18a;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+
+.message .newIndicator {
+margin-right:25px;
+}
+
+/* subforum at forumdisplay fix */
+.forum_view .nodeList{border:1px solid {xen:property primaryLighter};}
+
+
+/* custom postbit header */
+.mypostno {
+position: absolute;
+right: 15px;
+top: 10px;
+z-index: 11;
+}
+.message .privateControls2 .InlineModCheck {margin-left:3px!important;}
+.message .privateControls2 a{color:#985d5d;margin-left:4px;}
+.message .privateControls2{position:absolute;top:0px;left:0px;color:#985d5d;padding:6px;
+background: #d3bc74 url('styles/pesona/pesona_headbg.png') repeat-x;height:20px;width:100%;
+float:none!important;margin-top:0px!important;
+      padding-left:0px!important;
+      padding-right:0px!important;
+}
+.messageList .message {
+padding-top: 55px!important;
+}
+
+
+/* postbit boxing */
+.messageList .message {
+      background: #fdf9f0 none;
+      padding: 5px;
+      padding-left:10px!important;
+      padding-right:0px!important;
+      margin: 10px auto;
+      border: 1px solid #c7bd75!important;
+      border-radius: 0px;
+     -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     -khtml-border-radius: 0px;
+}
+
+/* postbit tools  - controls area bg */
+.message .messageMeta {
+      font-size: 11px;
+      border-top: 1px solid #c7bd75!important;
+      border-bottom: 1px solid #c7bd75!important;
+      background: #f5e6c6 url({xen:property imagePath}/pesona_catbg.png) repeat-x top left;
+      padding: 15px 5px 5px;
+      margin: -5px;
+      border-radius: 0px;
+     -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     -khtml-border-radius: 0px;
+}
+
+
+/* postbit tools  - controls area*/
+.messageList .message {
+position:relative;
+
+}
+
+.message .publicControls .item:hover {color:#fff!important;background-color:{xen:property secondaryDarker}!important;
+text-decoration:none;
+}
+.message .publicControls .item {
+color:#fff!important;
+padding:2px 4px;
+background: #985d5d none;
+border: 1px solid {xen:property secondaryDarker}!important;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+}
+
+.message .publicControls {
+margin-bottom:3px!important;padding-right:10px;margin-top:3px;
+}
+.message .messageMeta {
+      margin: 0px!important;
+      width:100%;
+      position:absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      bottom:-1px;
+      padding-top:2px!important;
+      padding-bottom:2px!important;
+      padding-left:0px!important;
+      padding-right:0px!important;
+}
+
+
+
+.message .privateControls { 
+ padding-top:3px!important;
+ padding-left:4px!important;
+}
+/* private control image sprite */
+.message .privateControls .edit{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat 0px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 13px;
+height: 15px;
+}
+
+.message .privateControls .delete{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -21px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 14px;
+height: 15px;
+}
+
+.message .privateControls .ip{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -46px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 14px;
+height: 15px;
+}
+
+.message .privateControls .report{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -67px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 16px;
+height: 15px;
+}
+
+.message .privateControls .deleteSpam{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -91px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 16px;
+height: 15px;
+}
+
+.message .privateControls .warn{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -111px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 16px;
+height: 15px;
+}
+.message .privateControls .history{
+background: transparent url('{xen:property imagePath}/privatecontrolsicons.png') no-repeat -129px 0px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+opacity: 0.65;
+width: 16px;
+height: 15px;
+}
+
+.message .privateControls .history:hover,
+.message .privateControls .warn:hover,
+.message .privateControls .deleteSpam:hover,
+.message .privateControls .edit:hover,
+.message .privateControls .delete:hover,
+.message .privateControls .ip:hover,
+.message .privateControls .report:hover{opacity: 1.0;}
+/*  center username  */
+.messageUserBlock div.avatarHolder .avatar,.messageUserBlock h3.userText {
+text-align:center;
+}
+
+/*  extra user info styling  */
+.messageUserBlock {margin-bottom:10px!important;}
+
+.messageUserBlock .extraUserInfo dt {
+padding-right:5px;font-size:11px!important;float:left;text-align:left;
+}
+.messageUserBlock .extraUserInfo dl {
+border-bottom:1px solid #ddd!important;
+}
+
+
+/* category design */
+.catlastposttext{
+     color:#985d5d;font-weight:bold;font-size:10px;
+     z-index:16;
+     position:absolute;
+     top:5px;
+     right:186px;
+     text-shadow: 0px 0px 1px #fff;
+}
+.catforumstext{
+     color:#985d5d;font-weight:bold;font-size:10px;
+     z-index:15;
+     position:absolute;
+     top:5px;
+     left:56px;
+     text-shadow: 0px 0px 1px #fff;
+}
+
+.catheadwrap{
+    position:relative;
+    height:24px;
+    border-bottom: 1px solid #ddc999;
+    background: #f5e6c6 url({xen:property imagePath}/pesona_catbg.png) repeat-x top left;
+    text-align:center;
+
+}]]></template>
+    <template title="node_category_level_1" addon_id="XenForo" version_id="1020570" version_string="1.2.5" disable_modifications="0"><![CDATA[<xen:require css="node_list.css" />
+<xen:require css="node_category.css" />
+
+<li class="sectionMain node category level_{$level} node_{$category.node_id}" id="{xen:helper linktitle, $category.node_id, $category.title, 1}">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href="{xen:link categories, $category}">{$category.title}</a></h3>
+			<xen:if is="{$category.description}"><blockquote class="nodeDescription baseHtml">{xen:raw $category.description}</blockquote></xen:if>
+		</div>
+		
+	</div>
+<!-- insert another row -->
+<div class="catheadwrap">
+<div class="catforumstext">Forums</div>   
+<div class="catlastposttext">Last Posts</div>
+</div>		
+	<xen:if is="{$renderedChildren}">		
+		<ol class="nodeList">
+			<xen:foreach loop="$renderedChildren" value="$child">{xen:raw $child}</xen:foreach>
+		</ol>
+	</xen:if>
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>]]></template>
+    <template title="node_list" addon_id="XenForo" version_id="1020570" version_string="1.2.5" disable_modifications="0"><![CDATA[<xen:require css="node_list.css" />
+
+<xen:if hascontent="true">
+	<ol class="nodeList" id="forums">
+	<xen:contentcheck>
+		<xen:foreach loop="$renderedNodes" value="$node">{xen:raw $node}</xen:foreach>
+	</xen:contentcheck>
+	</ol>
+</xen:if>
+
+<xen:edithint template="node_category.css" />
+<xen:edithint template="node_category_level_1" />
+<xen:edithint template="node_category_level_2" />
+<xen:edithint template="node_category_level_n" />
+
+<xen:edithint template="node_forum.css" />
+<xen:edithint template="node_forum_level_1" />
+<xen:edithint template="node_forum_level_2" />
+<xen:edithint template="node_forum_level_n" />
+
+<xen:edithint template="node_page.css" />
+<xen:edithint template="node_page_level_1" />
+<xen:edithint template="node_page_level_2" />
+<xen:edithint template="node_page_level_n" />
+
+<xen:edithint template="node_link.css" />
+<xen:edithint template="node_link_level_1" />
+<xen:edithint template="node_link_level_2" />
+<xen:edithint template="node_link_level_n" />]]></template>
+    <template title="post" addon_id="XenForo" version_id="1030070" version_string="1.3.0" disable_modifications="0"><![CDATA[<xen:include template="message">
+
+	<xen:map from="$post" to="$message" />
+
+	<xen:set var="$messageId">post-{$post.post_id}</xen:set>
+	
+	<xen:set var="$likesUrl">{xen:link posts/likes, $post}</xen:set>
+	
+	<xen:set var="$messageContentAfterTemplate"><xen:if is="{$post.attachments}"><xen:include template="attached_files" /></xen:if></xen:set>
+	
+	<xen:set var="$messageAfterTemplate">
+			<div class="privateControls2">
+	
+				<xen:if is="{$post.canInlineMod}"><input type="checkbox" name="posts[]" value="{$post.post_id}" class="InlineModCheck item" data-target="#post-{$post.post_id}" title="{xen:phrase select_this_post_by_x, 'name={$post.username}'}" /></xen:if>
+				<span class="item muted">
+				<a href="{xen:link threads/post-permalink, $thread, 'post={$post}'}" title="{xen:phrase permalink}" class="datePermalink"><xen:datetime time="$post.post_date" /></a>
+				</span>
+				<span class="mypostno">	
+			        <a href="{xen:link threads/post-permalink, $thread, 'post={$post}'}" title="{xen:phrase permalink}" class="item muted postNumber hashPermalink OverlayTrigger" data-href="{xen:link posts/permalink, $post}">#{xen:calc '{$post.position} + 1'}</a>
+				</span>
+
+			</div>				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				<xen:hook name="post_private_controls" params="{xen:array 'post={$post}'}">
+				<xen:if is="{$post.canEdit}">
+					<a href="{xen:link posts/edit, $post}" class="item control edit {xen:if $xenOptions.messageInlineEdit, OverlayTrigger}"
+						data-href="{xen:link posts/edit-inline, $post}" data-overlayOptions="{&quot;fixed&quot;:false}"
+						data-messageSelector="#post-{$post.post_id}"><span></span>{xen:phrase edit}</a>
+					<xen:require js="js/xenforo/discussion.js" />
+				</xen:if>
+				<xen:if is="{$post.edit_count} && {$post.canViewHistory}"><a href="{xen:link posts/history, $post}" class="item control history ToggleTrigger"><span></span>{xen:phrase history}</a></xen:if>
+				<xen:if is="{$post.canDelete}"><a href="{xen:link posts/delete, $post}" class="item control delete OverlayTrigger"><span></span>{xen:phrase delete}</a></xen:if>
+				<xen:if is="{$post.canCleanSpam}"><a href="{xen:link spam-cleaner, $post}" class="item control deleteSpam OverlayTrigger"><span></span>{xen:phrase spam}</a></xen:if>
+				<xen:if is="{$canViewIps} AND {$post.ip_id}"><a href="{xen:link posts/ip, $post}" class="item control ip OverlayTrigger"><span></span>{xen:phrase ip}</a></xen:if>
+				
+				<xen:if is="{$post.canWarn}">
+					<a href="{xen:link members/warn, $post, 'content_type=post', 'content_id={$post.post_id}'}" class="item control warn"><span></span>{xen:phrase warn}</a>
+				<xen:elseif is="{$post.warning_id} && {$canViewWarnings}" />
+					<a href="{xen:link warnings, $post}" class="OverlayTrigger item control viewWarning"><span></span>{xen:phrase view_warning}</a>
+				</xen:if>
+				<xen:if is="{$post.canReport}">
+					<a href="{xen:link posts/report, $post}" class="OverlayTrigger item control report" data-cacheOverlay="false"><span></span>{xen:phrase report}</a>
+				</xen:if>
+				
+				</xen:hook>
+			</div>		
+			
+			<div class="publicControls">
+				<xen:hook name="post_public_controls" params="{xen:array 'post={$post}'}">
+				<xen:if is="{$post.canLike}">
+					<a href="{xen:link posts/like, $post}" class="LikeLink item control {xen:if $post.like_date, unlike, like}" data-container="#likes-post-{$post.post_id}"><span></span><span class="LikeLabel">{xen:if $post.like_date, {xen:phrase unlike}, {xen:phrase like}}</span></a>
+				</xen:if>
+				<xen:if is="{$canReply}">
+					<xen:if is="{$xenOptions.multiQuote}"><a href="{xen:link threads/reply, $thread, 'quote={$post.post_id}'}"
+						data-messageid="{$post.post_id}"
+						class="MultiQuoteControl JsOnly item control"
+						title="{xen:phrase toggle_multi_quote_tooltip}"><span></span><span class="symbol">{xen:phrase multiquote_add}</span></a></xen:if>
+					<a href="{xen:link threads/reply, $thread, 'quote={$post.post_id}'}"
+						data-postUrl="{xen:link posts/quote, $post}"
+						data-tip="#MQ-{$post.post_id}"
+						class="ReplyQuote item control reply"
+						title="{xen:phrase reply_quoting_this_message}"><span></span>{xen:phrase reply}</a>
+				</xen:if>
+				</xen:hook>
+			</div>
+		</div>
+	</xen:set>
+	
+</xen:include>]]></template>
+  </templates>
+</style>
